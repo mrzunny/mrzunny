@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J25_DTS20</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="menu-block">
+        <div class="logo-left"></div>
+        <div class="icon-right">
+            <span class="fa fa-bars menu-icon"></span>
+        </div>
+        <div class="menu-right">
+            <ul class="menus">
+                <li>Personel</li>
+                <li>Kota</li>
+                <li>Email</li>
+            </ul>
+        </div>
+        <!-- <div class="login-right">login</div> -->
+    </div>
+    <header>
+        <div class="cover-image">
+            <div class="cover-text">
+                <h1 class="main-cover-text">J_DUA_LIMA</h1>
+                <h1 class="sub-cover-text">PROGATE TEAM DT20</h1>
+                <div class="btn cover">
+                    <span>Profile Kelompok Kami</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-top">
+            <div class="row-wrapper">
+                <h2>Informasi Seputar Covid-19</h2>
+                <div class="column-top">
+                    <div class="main-column-1">
+                        <h3>Pencegahan Covid-19</h3>
+                        <div class="image-column-1">
+                        <img class="mySlides w3-animate-fading" src="covid 19.png" style="width:100%">
+                            <img class="mySlides w3-animate-fading" src="cegah corona 2.jpg" style="width:100%">
+                            <img class="mySlides w3-animate-fading" src="cegah corona 3.jpg" style="width:100%">
+                            <img class="mySlides w3-animate-fading" src="cegah corona.png" style="width:100%">
+                    </div>
+                    </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+</script>
+                </div>
+<!--                 
+                <div class="column-top">
+                    <div class="main-column-2 ">
+                        <h3>Peta Persebaran Covid-19 di Indonesia</h3>
+                        <p>Berikut adalah peta persebaran covid-19 di Indonesia</p>
+                        <div class="image-column-2">
+                            <img class="mySlides w3-animate-fading" src="peta covid 3.jpg" style="width:100%">
+                        </div>
+                    </div>
+               </div>
+                 -->
+            </div>
+        </div>
+
+<div class="main-background">
+            <div class="cards">
+                <h2>Personel</h2>
+                <div class="card-1">
+                    <h3>Deky</h3>
+                    <div class="card-image">
+                        <span class="fa fa-user"></span>
+                    </div>
+                    <div class="medsos">
+                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-instagram"></span>
+                        <span class="fa fa-youtube"></span>
+                    </div>
+                </div>
+                <div class="card-1">
+                    <h3>Umie</h3>
+                    <div class="card-image">
+                        <span class="fa fa-user"></span>
+                    </div>
+                    <div class="medsos">
+                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-instagram"></span>
+                        <span class="fa fa-youtube"></span>
+                    </div>
+                </div>
+                <div class="card-1">
+                    <h3>Viksu</h3>
+                    <div class="card-image">
+                        <span class="fa fa-user"></span>
+                    </div>
+                    <div class="medsos">
+                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-instagram"></span>
+                        <span class="fa fa-youtube"></span>
+                    </div>
+                </div>
+                <div class="card-1">
+                    <h3>Ulfa</h3>
+                    <div class="card-image">
+                        <span class="fa fa-user"></span>
+                    </div>
+                    <div class="medsos">
+                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-instagram"></span>
+                        <span class="fa fa-youtube"></span>
+                    </div>
+                 </div>
+                <div class="card-1">
+                    <h3>Zunny</h3>
+                    <div class="card-image">
+                        <span class="fa fa-user"></span>
+                    </div>
+                    <div class="medsos">
+                        <span class="fa fa-facebook"></span>
+                         <span class="fa fa-twitter"></span>
+                        <span class="fa fa-instagram"></span>
+                        <span class="fa fa-youtube"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix">
+            <div class="contact-form">
+                <h2 class="section-title">Hubungi kami</h2>
+                <p>Email (Wajib Diisi)</p>
+                <input>
+                
+                <p>Pesan (Wajib Diisi)</p>
+                <textarea></textarea>
+                
+                <p>*Bidang Wajib Diisi</p>
+                <input class="btn contact-submit" type="submit" value="Kirim">
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer>
+            <div class="footer-text">
+                <P>PROGATE TEAM DT20</P>
+                <P>Kelompok J25</P>
+        </div>
+    </footer>
+
+</body>
+</html>
